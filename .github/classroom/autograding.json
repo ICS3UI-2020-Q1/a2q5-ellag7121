@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "name": "Fizz",
+      "setup": "javac Main.java",
+      "run": "java Main",
+      "input": "18",
+      "output": "Please enter a number to play FizzBuzz\r\nYou should say Fizz\r\n",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 2
+    },
+    {
+      "name": "Buzz",
+      "setup": "javac Main.java",
+      "run": "java Main",
+      "input": "20",
+      "output": "Please enter a number to play FizzBuzz\r\nYou should say Buzz\r\n",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 2
+    },
+    {
+      "name": "FizzBuzz",
+      "setup": "javac Main.java",
+      "run": "java Main",
+      "input": "15",
+      "output": "Please enter a number to play FizzBuzz\r\nYou should say FizzBuzz\r\n",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 2
+    },
+    {
+      "name": "Number",
+      "setup": "javac Main.java",
+      "run": "java Main",
+      "input": "16",
+      "output": "Please enter a number to play FizzBuzz\r\nYou should say 16\r\n",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 2
+    }
+  ]
+}
